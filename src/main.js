@@ -172,9 +172,8 @@ onAuthReady(async function (user) {
     // } else {
     //   favourites = [];
     // }
-
-    displayHikesDynamically(); // 4. Draw the cards
   }
+  displayCardsDynamically(); // 4. Draw the cards
 });
 
 // ------------------------------------------------------------
